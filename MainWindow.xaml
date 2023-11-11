@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfPost.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPost"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="logo" HorizontalAlignment="Left" Height="94" VerticalAlignment="Top" Width="97" Source="/logo.jpg"/>
+        <Rectangle HorizontalAlignment="Center" Height="65" Stroke="Black" VerticalAlignment="Top" Width="800"/>
+        <Label Content="Post App" HorizontalAlignment="Left" Height="45" Margin="250,10,0,0" VerticalAlignment="Top" Width="288"/>
+        <Frame x:Name="MainFrame" Content="MainFrame" HorizontalAlignment="Center" Height="359" Margin="0,65,0,0" VerticalAlignment="Top" Width="780"/>
+
+    </Grid>
+</Window>
